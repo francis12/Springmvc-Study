@@ -1,0 +1,1 @@
+package com.imooc.mvcdemo;import org.springframework.stereotype.Controller;import org.springframework.web.bind.annotation.RequestMapping;@Controller@RequestMapping("/hello")public class HelloMVCContoller {	@RequestMapping("/mvc.do")	public String helloMVC() {		return "home";	}}
